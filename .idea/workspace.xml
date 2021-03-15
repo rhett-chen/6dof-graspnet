@@ -1,7 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a9c71d7-56fd-4ed1-bfb3-2d2b8f4c0d0d" name="Default Changelist" comment="" />
+    <list default="true" id="7a9c71d7-56fd-4ed1-bfb3-2d2b8f4c0d0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/6dof-graspnet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6DOFgraspnet variational grasp generation for object manipulation ICCV2019.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/.pre-commit-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/UNLICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/model/msg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/model/ssg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/task/cls.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/task/semseg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/task_model/cls-msg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/task_model/cls-ssg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/task_model/semseg-msg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/config/task_model/semseg-ssg.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/data/Indoor3DSemSegLoader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/data/ModelNet40Loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/data/data_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/models/pointnet2_msg_cls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/models/pointnet2_msg_sem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/models/pointnet2_ssg_cls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/models/pointnet2_ssg_sem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2/utils/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/ball_query.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/ball_query_gpu.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/bindings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/group_points.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/group_points_gpu.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/interpolate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/interpolate_gpu.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_ext-src/src/sampling_gpu.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/pointnet2_modules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/pointnet2_ops/pointnet2_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pointnet2_ops_lib/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/tests/test_cls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/tests/test_semseg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointnet2_PyTorch/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TRAINED_MODEL_LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/download_models.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/evaluator_pretrained/latest_net.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/evaluator_pretrained/loss_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/evaluator_pretrained/opt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/evaluator_pretrained/opt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/evaluator_pretrained/tensorboard/events.out.tfevents.1589905058.graspnet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/evaluator_pretrained/testacc_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/gan_pretrained/latest_net.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/gan_pretrained/loss_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/gan_pretrained/opt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/gan_pretrained/opt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/gan_pretrained/tensorboard/events.out.tfevents.1590388051.graspnet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/gan_pretrained/testacc_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/models.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/vae_pretrained/latest_net.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/vae_pretrained/loss_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/vae_pretrained/opt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/vae_pretrained/opt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/vae_pretrained/tensorboard/events.out.tfevents.1591170007.graspnet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/vae_pretrained/testacc_log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/base_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/decision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/get_shapeNet_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/grasp_data_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/grasp_evaluator_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/grasp_json_preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/grasp_sampling_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/prepare_shapeNet_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/shapeid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/treePlotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/blue_mug.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/cheezit.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/cylinder.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/green_bowl.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/mustard.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/pepper.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/red_mug.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/sugar.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/white_bowl.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/data/white_mug.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/examples/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/examples/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grasp_estimator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_control_points/panda.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/featuretype.STL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/mug.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/panda_gripper.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/panda_gripper/finger.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/panda_gripper/hand.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/panda_pc.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/yumi_gripper/base.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/yumi_gripper/base_coarse.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/yumi_gripper/finger.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gripper_models/yumi_gripper/finger_coarse.stl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/grasp_net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/networks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/options/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/options/base_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/options/test_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/options/train_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapenet_ids.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uniform_quaternions/data2_4608.qua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uniform_quaternions/data3_36864.qua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/object_renderer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/online_object_renderer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/surface_normal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/visualization_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/writer.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +159,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mQBRIvTfwbi0FMaghXB0ClPKyz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
@@ -115,7 +263,7 @@
       <workItem from="1615439617772" duration="19171000" />
       <workItem from="1615526073021" duration="12679000" />
       <workItem from="1615714974157" duration="11397000" />
-      <workItem from="1615796187554" duration="6952000" />
+      <workItem from="1615796187554" duration="7214000" />
     </task>
     <servers />
   </component>
@@ -125,6 +273,17 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".bash_profile" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/6dof_graspnet$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1609496183040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
