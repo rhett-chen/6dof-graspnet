@@ -1,8 +1,10 @@
-# 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation
-The main part of the code is forked from <https://github.com/jsll/pytorch_6dof-graspnet> and I applied it to my project. 
+# Acknowledgement
+The main part of the code is borrowed from <https://github.com/jsll/pytorch_6dof-graspnet> and I applied it to my project. 
 
 The following is the original readme.
 ************************************************************
+# 6-DoF GraspNet: Variational Grasp Generation for Object Manipulation
+
 This is a PyTorch implementation of [6-DoF
 GraspNet](https://arxiv.org/abs/1905.10520). The original Tensorflow
 implementation can be found here <https://github.com/NVlabs/6dof-graspnet>.
