@@ -1,0 +1,27 @@
+# 这些是没包含在shapenetcorev2中的，需要在sem那单独下载
+Bottle 3702fc385b6c7708fc33503fd88ecb34
+Bottle 48bacbf60318db537a0c402e1ca31f3
+Bottle 6ca2149ac6d3699130612f5c0ef21eb8
+Bottle 83fd5e88eca47f1dab298e30fc6f45ba
+Bottle 9afea0432f292379dc0e610397fef7f9
+Bottle c382be46c8ab7815d333084c1357713e
+Bottle c5eb3234b73037562825656dc457df78
+Bottle cd418bf69c286701e301960cce35ab79
+Bottle d7305324e9dd49eccee5e41d780064a2
+Bowl 2efc35a3625fa50961a9876fa6384765
+Bowl 4b93a81c3534e56d19620b61f6587b3e
+Bowl 4be4184845972fba5ea36d5a57a5a3bb
+Bowl 594b22f21daf33ce6aea2f18ee404fd5
+Bowl 8e840ba109f252534c6955b188e290e0
+Bowl 8eab5598b81afd7bab5b523beb03efcd
+Bowl ecb86f63e92e346a25c70fb1df3f879b
+
+#########################################
+Prepare ShapeNet Models这一块，需要先manifold，然后simplify，有4个obj处理失败，分别是：
+
+Bottle 3dbd66422997d234b811ffed11682339.obj
+Bottle 6ca2149ac6d3699130612f5c0ef21eb8.obj
+Bottle 9afea0432f292379dc0e610397fef7f9.obj
+Bottle c382be46c8ab7815d333084c1357713e.obj
+
+不够由于处理前处理后都是obj，卡在这里也没必要，对这4个obj，既然处理失败，那就不处理了，继续往后做吧

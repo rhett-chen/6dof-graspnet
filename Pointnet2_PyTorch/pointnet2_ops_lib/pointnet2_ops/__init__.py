@@ -1,0 +1,6 @@
+# import pointnet2_ops.pointnet2_modules
+# import pointnet2_ops.pointnet2_utils
+# from pointnet2_ops._version import __version__
+import Pointnet2_PyTorch.pointnet2_ops_lib.pointnet2_ops.pointnet2_modules
+import Pointnet2_PyTorch.pointnet2_ops_lib.pointnet2_ops.pointnet2_utils
+import Pointnet2_PyTorch.pointnet2_ops_lib.pointnet2_ops._version
