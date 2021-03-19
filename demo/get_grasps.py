@@ -17,7 +17,7 @@ def make_parser():
     parser.add_argument('--refinement_method', choices={"gradient", "sampling"},
                         default='sampling')
     parser.add_argument('--refine_steps', type=int, default=25)
-    parser.add_argument('--pc_path', type=str, default='demo/data/pccylinder.npy', help='point cloud .npy file path')
+    parser.add_argument('--pc_path', type=str, default='demo/data/pcocylinder.npy', help='point cloud .npy file path')
     parser.add_argument(
         '--threshold',
         type=float,
@@ -55,8 +55,8 @@ def make_parser():
         "Set the batch size of the number of grasps we want to process and can fit into the GPU memory at each forward"
         " pass. The batch_size can be increased for a GPU with more memory."
     )
-    parser.add_argument('--npy_save_path', type=str, default='demo/data/grasps.npy')
-    parser.add_argument('--txt_save_path', type=str, default='demo/data/grasps.txt')
+    parser.add_argument('--npy_save_path', type=str, default='demo/data/grasps_pose_6dof1024cylinder80 60.npy')
+    parser.add_argument('--txt_save_path', type=str, default='demo/data/grasps_pose_6dof1024cylinder80 60.txt')
     opts, _ = parser.parse_known_args()
     return parser
 
@@ -79,19 +79,16 @@ def main():
     generated_grasps, generated_scores = estimator.generate_and_refine_grasps(
         point_cloud)
 
-    # save_path_npy = 'demo/data/grasp_pose_6dof1024cylinder_whole.npy'
-    # save_path_txt = 'demo/data/grasp_pose_6dof1024cylinder_whole.txt'
-
     grasp_pose_score = {'grasp': np.array(generated_grasps), 'score': np.array(generated_scores)}
     np.save(args.npy_save_path, grasp_pose_score)
-    print('successfully saved %s', args.npy_save_path)
+    print('successfully saved %s'% args.npy_save_path)
     with open(args.txt_save_path, 'w') as w:
         for pose, score in zip(generated_grasps, generated_scores):
             w.write(str(pose))
             w.write('   ')
             w.write(str(score) + '\n')
             w.flush()
-    print('successfully saved %s', save_path_txt)
+    print('successfully saved %s' % args.txt_save_path)
 
 
 if __name__ == '__main__':
